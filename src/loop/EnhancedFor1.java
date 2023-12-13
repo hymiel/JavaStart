@@ -2,7 +2,7 @@ package loop;
 
 public class EnhancedFor1 {
     public static void main(String[] args) {
-        //향상된 for문
+        //향상된 for문 (iter 단축키)
 //        for(변수 : 배열 또는 컬렉션) {
 //            //배열 또는 컬렉션의 요소를 순화하면서 수행할 작업
 //        }
