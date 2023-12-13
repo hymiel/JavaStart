@@ -19,5 +19,10 @@ public class EnhancedFor1 {
             System.out.println(number);
         }
 
+        //for-each문을 사용할 수 없는 경우 : 증가하는 index값 필요할 때
+        for (int i = 0; i < numbers.length; i++) {
+            System.out.println("number" + i + "번의 결과는" + numbers[i]);
+            //증가하는 index를 루프안에서 직접 써야할 때는 일반 for문
+        }
     }
 }
